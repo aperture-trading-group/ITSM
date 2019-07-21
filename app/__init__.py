@@ -2,7 +2,7 @@
 from flask import Flask
 
 # Define the WSGI application object
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 
 # Configurations
 app.config.from_object('config')
