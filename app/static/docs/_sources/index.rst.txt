@@ -20,9 +20,9 @@ Indices and tables
 * :ref:`search`
 
 
-API Details
+MOD_API
 -----------
 
 .. autoflask:: app:app
   :undoc-static:
-  :blueprints:
+  :blueprints: mod_api
